@@ -6,6 +6,8 @@ export interface DiffEditorProps {
   onMount?: (editor?: object, monaco?: object) => void
 }
 
-export interface RefObject<T> {
-  readonly current: T | null
+export interface MonacoEditorProps {}
+export interface ContainerProps {
+  classNames?: any
+  children: React.ReactNode
 }

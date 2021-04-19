@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+}
+
+.root {
+  display: grid !important;
+  grid-template-rows: 50px auto 50px;
+  height: 100vh;
+}
+
+.header {
+  background-color: red;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer {
+  background-color: blue;
+}

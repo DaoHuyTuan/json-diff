@@ -8,11 +8,12 @@ const JSONDiffEditor: React.FC<DiffEditorProps> = props => {
   }
   return (
     <DiffEditor
-      height='90vh'
+      height='100%'
       language='json'
       onMount={handleEditorDidMount}
       original='// the original code'
       modified='// the modified code'
+      theme='vs-dark'
     />
   )
 }
