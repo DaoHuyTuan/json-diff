@@ -1,0 +1,7 @@
+.disabled {
+  pointer-events: var(--disabled);
+}
+
+.btn-disabled {
+  background-color: #ddd;
+}

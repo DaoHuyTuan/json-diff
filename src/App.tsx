@@ -1,14 +1,16 @@
 import React from 'react'
 import styles from './App.module.css'
-import Container from './components/container'
+import Container from './components/Container'
 import JSONDiffEditor from './components/DiffEditor'
+import Footer from './components/Footer'
+import Header from './components/Header'
 import MonacoEditor from './components/MonacoEditor'
 
 function App() {
   return (
     <div className={styles.main}>
       <Container classNames={styles.root}>
-        <Container classNames={styles.header}>this is header</Container>
+        <Header />
         <Container classNames={styles.content}>
           <Container>
             <MonacoEditor />
@@ -17,7 +19,7 @@ function App() {
             <MonacoEditor />
           </Container>
         </Container>
-        <Container classNames={styles.footer}>this is footer</Container>
+        <Footer />
       </Container>
     </div>
   )
